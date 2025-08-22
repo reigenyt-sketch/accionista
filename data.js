@@ -18,18 +18,18 @@ const DATA = {
         notas: "Se distribuirá el 50% de las ganancias netas como dividendos."
     },
     ingresos: [
-        { fecha: "2025-10-21", concepto: "Venta inicial", monto: 10.00 },
-        { fecha: "2025-10-21", concepto: "Venta online", monto: 10.00 },
-        { fecha: "2025-10-21", concepto: "Venta por mayor", monto: 36.00 },
-        { fecha: "2025-10-21", concepto: "Venta por mayor", monto: 10.00 }
+        { fecha: "2025-08-21", concepto: "Venta inicial", monto: 10.00 },
+        { fecha: "2025-08-21", concepto: "Venta online", monto: 10.00 },
+        { fecha: "2025-08-21", concepto: "Venta por mayor", monto: 36.00 },
+        { fecha: "2025-08-21", concepto: "Venta por mayor", monto: 10.00 }
 
     ],
     gastos: [
-        { fecha: "2025-10-21", concepto: "Compra mercadería", categoria: "Stock", monto: 12.00 },
-        { fecha: "2025-10-21", concepto: "Aporte mercadería", categoria: "Stock", monto: 700.00 },
-        { fecha: "2025-10-21", concepto: "Envío local", categoria: "Logística", monto: 8.50 },
-        { fecha: "2025-10-21", concepto: "Packaging", categoria: "Operativo", monto: 85.00 },
-        { fecha: "2025-10-21", concepto: "Mercaderia", categoria: "Stock", monto: 118.00 },
+        { fecha: "2025-08-21", concepto: "Compra mercadería", categoria: "Stock", monto: 12.00 },
+        { fecha: "2025-08-21", concepto: "Aporte mercadería", categoria: "Stock", monto: 700.00 },
+        { fecha: "2025-08-21", concepto: "Envío local", categoria: "Logística", monto: 8.50 },
+        { fecha: "2025-08-21", concepto: "Packaging", categoria: "Operativo", monto: 85.00 },
+        { fecha: "2025-08-21", concepto: "Mercaderia", categoria: "Stock", monto: 118.00 },
     ],
     comunicados: [
         {
@@ -166,5 +166,6 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
 
