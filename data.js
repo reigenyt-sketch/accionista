@@ -83,8 +83,8 @@ const DATA = {
         },
         {
             id: "gustavo",
-            usuario: "gustavo",
-            password: "gustavox",
+            usuario: "Gustavo_19",
+            password: "GUSTAVO19020605",
             nombre: "Gustavo Chilon",
             contacto: { email: "Gustavo@legendworld.com", telefono: "+51 999 666 555" },
             compras: [
@@ -166,3 +166,4 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
