@@ -42,7 +42,7 @@ const DATA = {
         {
             id: "rafael",
             usuario: "rafael",
-            password: "1234",
+            password: "Omar45733747",
             nombre: "Rafael Paredes",
             contacto: { email: "rafael@legendworld.com", telefono: "+51 999 888 777" },
             compras: [
@@ -55,8 +55,8 @@ const DATA = {
         },
         {
             id: "angel",
-            usuario: "angel",
-            password: "1234",
+            usuario: "Aangelmoo90",
+            password: "Aangelmoo",
             nombre: "Ángel Hiroshi",
             contacto: { email: "angel@legendworld.com", telefono: "+51 937 523 150" },
             compras: [
@@ -70,7 +70,7 @@ const DATA = {
         {
             id: "josue",
             usuario: "josue",
-            password: "1234",
+            password: "josuepro",
             nombre: "Josué Llerena",
             contacto: { email: "josue@legendworld.com", telefono: "+51 999 666 555" },
             compras: [
@@ -82,9 +82,9 @@ const DATA = {
             notasPrivadas: ""
         },
         {
-            id: "josue",
+            id: "gustavo",
             usuario: "gustavo",
-            password: "1234",
+            password: "gustavox",
             nombre: "Gustavo Chilon",
             contacto: { email: "Gustavo@legendworld.com", telefono: "+51 999 666 555" },
             compras: [
@@ -98,7 +98,7 @@ const DATA = {
         {
             id: "admin",
             usuario: "admin",
-            password: "admin123",
+            password: "andy03082009",
             nombre: "Administrador",
             contacto: { email: "admin@legendworld.com", telefono: "" },
             // ❌ No pones compras ni acciones aquí todavía
@@ -164,4 +164,5 @@ if (utilidadNetaTotal > 0 && DATA.empresa.porcentajeDividendos > 0) {
 DATA.capTable.series = [
     { nombre: "Fundadores", acciones: admin.acciones },
     { nombre: "Inversionistas", acciones: accionesVendidas }
+
 ];
