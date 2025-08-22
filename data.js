@@ -46,7 +46,7 @@ const DATA = {
             nombre: "Rafael Paredes",
             contacto: { email: "rafael@legendworld.com", telefono: "+51 999 888 777" },
             compras: [
-                { fecha: "2025-04-01", acciones: 10, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
+                { fecha: "2025-08-21", acciones: 10, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
             ],
             prestamosEmpresa: [],
             dividendosRecibidos: [],
@@ -60,7 +60,7 @@ const DATA = {
             nombre: "Ángel Hiroshi",
             contacto: { email: "angel@legendworld.com", telefono: "+51 937 523 150" },
             compras: [
-                { fecha: "2025-04-01", acciones: 1, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
+                { fecha: "2025-08-21", acciones: 1, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
             ],
             prestamosEmpresa: [],
             dividendosRecibidos: [],
@@ -74,7 +74,7 @@ const DATA = {
             nombre: "Josué Llerena",
             contacto: { email: "josue@legendworld.com", telefono: "+51 999 666 555" },
             compras: [
-                { fecha: "2025-04-01", acciones: 2, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
+                { fecha: "2025-08-21", acciones: 2, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
             ],
             prestamosEmpresa: [],
             dividendosRecibidos: [],
@@ -88,7 +88,7 @@ const DATA = {
             nombre: "Gustavo Chilon",
             contacto: { email: "Gustavo@legendworld.com", telefono: "+51 999 666 555" },
             compras: [
-                { fecha: "2025-04-01", acciones: 2, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
+                { fecha: "2025-08-21", acciones: 2, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
             ],
             prestamosEmpresa: [],
             dividendosRecibidos: [],
@@ -166,4 +166,5 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
