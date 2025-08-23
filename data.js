@@ -29,7 +29,7 @@ const DATA = {
         { fecha: "2025-08-21", concepto: "Aporte mercadería", categoria: "Stock", monto: 700.00 },
         { fecha: "2025-08-21", concepto: "Envío local", categoria: "Logística", monto: 8.50 },
         { fecha: "2025-08-21", concepto: "Packaging", categoria: "Operativo", monto: 85.00 },
-        { fecha: "2025-08-21", concepto: "Mercaderia", categoria: "Stock", monto: 118.00 },
+        { fecha: "2025-08-21", concepto: "Mercaderia", categoria: "Stock", monto: 118.20 },
     ],
     comunicados: [
         {
@@ -180,6 +180,7 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
 
 
