@@ -95,6 +95,20 @@ const DATA = {
             derechos: { voto: true, infoExtendida: true, verCapTable: false },
             notasPrivadas: ""
         },
+         {
+            id: "fabian",
+            usuario: "fabian",
+            password: "fabian1616",
+            nombre: "Fabian Ibrahin",
+            contacto: { email: "fabian@legendworld.com", telefono: "+51 999 666 555" },
+            compras: [
+                { fecha: "2025-08-22", acciones: 2, precioPorAccion: 5.00, valorEmpresaEnCompra: 1000.00 }
+            ],
+            prestamosEmpresa: [],
+            dividendosRecibidos: [],
+            derechos: { voto: true, infoExtendida: true, verCapTable: false },
+            notasPrivadas: ""
+        },
         {
             id: "admin",
             usuario: "admin",
@@ -166,6 +180,7 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
 
 
