@@ -6,13 +6,13 @@ const DATA = {
         empresa: "Legend World Shop",
         moneda: "PEN",
         totalAcciones: 200, // Total fijo de acciones
-        ultimaActualizacion: "2025-05-04T23:00:00Z",
+        ultimaActualizacion: "2025-08-21T23:00:00Z",
         congelado: false
     },
     empresa: {
         valorActual: 1300.00,
         valorReferenciaPublico: 1000.00,
-        politicaDividendos: "distribuir",
+        politicaDividendos: "retener",
         porcentajeDividendos: 50,
         montoDividendos: null,
         notas: "Se distribuirá el 50% de las ganancias netas como dividendos."
@@ -180,6 +180,7 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
 
 
