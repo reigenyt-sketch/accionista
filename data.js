@@ -21,7 +21,8 @@ const DATA = {
         { fecha: "2025-08-21", concepto: "Venta inicial", monto: 10.00 },
         { fecha: "2025-08-21", concepto: "Venta online", monto: 10.00 },
         { fecha: "2025-08-21", concepto: "Venta por mayor", monto: 36.00 },
-        { fecha: "2025-08-21", concepto: "Venta por mayor", monto: 10.00 }
+        { fecha: "2025-08-21", concepto: "Venta por mayor", monto: 10.00 },
+        { fecha: "2025-08-25", concepto: "Venda adhesiva", monto: 4.00 }
 
     ],
     gastos: [
@@ -180,6 +181,7 @@ DATA.capTable.series = [
     { nombre: "Inversionistas", acciones: accionesVendidas }
 
 ];
+
 
 
 
